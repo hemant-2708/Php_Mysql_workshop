@@ -24,7 +24,7 @@ if (isset($_POST['submit'])){
 	else{
 		echo "Feedback not recorded!";
 	}
-	$admin = //add administrator's email id.;
+	$admin = //add administrator's email id;
 	$subject_1 = "Input Recieved.";
 	$body_1 = "User Info: \n Name: ".$a."\n Email: ".$to."\n Feedback: ".$msg;
 	mail($admin, $subject_1, $body_1);
